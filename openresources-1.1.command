@@ -49,7 +49,7 @@ def openResources(searchQuery):
 
     if searchQuery['domain']:
         #urls.append(BACKEND + searchQuery['domain'])
-        urls.append(BACKENDRETAILER + searchQuery['domain'])
+        urls.append(BACKEND + searchQuery['domain'])
 
     if searchQuery['keywords']:
         urls.append(TRELLO + searchQuery['keywords'])
